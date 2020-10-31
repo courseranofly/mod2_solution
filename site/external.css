@@ -1,0 +1,178 @@
+.h11
+{
+	text-align: center;
+}
+.row
+{
+	width:100%;
+	height: 100%;
+}
+.box
+{
+	background-color: lightgrey;
+	border:1px solid black;
+	margin:0px;
+	padding: 0px;
+
+}
+section
+{
+	position:relative;
+	top :175px;
+}
+h2 
+{
+  width: 90px;
+  height: 30px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+@media(min-width:992px)
+{
+   #p11/*chicken*/
+ {
+ 	position:relative;
+ 	left:26%;
+     
+ }
+
+  #p22/*beef*/
+ {
+ 	position:relative;
+ 	left:848px;
+ 	bottom:45px;
+
+ }
+ #p33/*sushi*/
+ { 
+ 	     position:relative;
+ 	     bottom:90px;
+ 	     right:30px;
+	    float :right;
+
+ }
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+
+   #p11/*chicken*/
+ {
+ 	position:relative;
+ 	bottom:276px;
+ 	left:289px;
+     
+ }
+
+  #p22/*beef*/
+ {
+ 	position:relative;
+ 	left:667px;
+ 	bottom:321px;
+
+ }
+ #p33/*sushi*/
+ { 
+ 	     position:relative;
+ 	     bottom:85px;
+ 	     left:10px;
+	    float :right;
+
+ }
+}
+@media(max-width: 767px)
+{
+	   #p11/*chicken*/
+ {
+ 	position:relative;
+ 	bottom:310px;
+ 	left:610px;
+     
+ }
+
+  #p22/*beef*/
+ {
+ 	position:relative;
+ 	left:610px;
+ 	bottom:193px;
+
+ }
+ #p33/*sushi*/
+ { 
+ 	     position:relative;
+ 	     bottom:77px;
+ 	     left:-67px;
+	    float :right;
+
+ }
+}		
+
+@media(min-width:  992px)
+{
+	.p1
+	{
+		width:30%;
+		height:110%;
+		margin-right: 30px;
+		padding: 30px 5px 0px 10px;
+		float:right;
+
+
+	}
+	.p2
+	{
+		width:30%;
+		height:100%;
+		margin-right:40px;
+		padding: 30px 5px 0px 10px;		 
+		float:right;
+	}
+	.p3
+	{
+		width:30%;
+		height:40%;
+		margin-left: 30px;
+		padding: 30px 5px 0px 10px;
+
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.pm1
+	{
+		width:48%;
+		height:50%;
+		float:right;
+		padding :35px;
+		margin-right: 10px;
+
+	}
+	.pm2
+	{
+		clear:left;
+		width:48%;
+		height:50%;
+		padding: 35px;
+		margin-left: 10px;
+ 
+
+	}
+	.pm3
+	{
+		width:100%;
+		height:100%;
+		padding: 35px;
+		margin: 10px;
+	}	
+
+}
+@media(max-width: 767px)
+{
+	.m1
+	{
+		width:90%;
+		margin:10px;
+		padding:30px;
+	}
+}
