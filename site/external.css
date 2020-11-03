@@ -13,158 +13,118 @@
 	border:1px solid black;
 	margin:0px;
 	padding: 0px;
+    z-index: -1;
+
 
 }
-section
+.tt
 {
-	position:relative;
-	top :175px;
+	border:1px solid black;
+	margin:10px;
+	width:fit-content;
+    font-size: 20px;
+
 }
-h2 
-{
-  width: 90px;
-  height: 30px;
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
-
-@media(min-width:992px)
-{
-   #p11/*chicken*/
- {
- 	position:relative;
- 	left:26%;
-     
- }
-
-  #p22/*beef*/
- {
- 	position:relative;
- 	left:848px;
- 	bottom:45px;
-
- }
- #p33/*sushi*/
- { 
- 	     position:relative;
- 	     bottom:90px;
- 	     right:30px;
-	    float :right;
-
- }
-}
-@media(min-width: 768px) and (max-width: 991px)
-{
-
-   #p11/*chicken*/
- {
- 	position:relative;
- 	bottom:276px;
- 	left:289px;
-     
- }
-
-  #p22/*beef*/
- {
- 	position:relative;
- 	left:667px;
- 	bottom:321px;
-
- }
- #p33/*sushi*/
- { 
- 	     position:relative;
- 	     bottom:85px;
- 	     left:10px;
-	    float :right;
-
- }
-}
-@media(max-width: 767px)
-{
-	   #p11/*chicken*/
- {
- 	position:relative;
- 	bottom:310px;
- 	left:610px;
-     
- }
-
-  #p22/*beef*/
- {
- 	position:relative;
- 	left:610px;
- 	bottom:193px;
-
- }
- #p33/*sushi*/
- { 
- 	     position:relative;
- 	     bottom:77px;
- 	     left:-67px;
-	    float :right;
-
- }
-}		
 
 @media(min-width:  992px)
-{
-	.p1
-	{
-		width:30%;
-		height:110%;
-		margin-right: 30px;
-		padding: 30px 5px 0px 10px;
-		float:right;
-
+{	.p1{
+		
+		padding:28px;
+		width:31%;
+		margin:20px;
+		position: fixed;
 
 	}
 	.p2
-	{
-		width:30%;
-		height:100%;
-		margin-right:40px;
-		padding: 30px 5px 0px 10px;		 
-		float:right;
-	}
-	.p3
-	{
-		width:30%;
-		height:40%;
-		margin-left: 30px;
-		padding: 30px 5px 0px 10px;
 
-	}
+	{
+		position: fixed;
+		padding:29px;
+		width:31%;
+		margin:20px;
+
+			float:right;
+		    left:450px;
+
+    }
+    .p3
+    {
+    	position: fixed;
+    	padding:29px;
+		width:31%;
+		margin:20px;
+
+			float:right;
+		    left:900px;
+    }
+    #p11
+{
+	position:absolute;
+	left:364px;
+	top:47px;
+
+}
+#p22
+{
+	position: absolute;
+	left:843px;
+	top:47px;
+}
+#p33
+{
+	position: absolute;
+	float:right;
+	right:13px;
+	top:47px;
+}
+
+    
 }
 
 @media(min-width: 768px) and (max-width: 991px)
 {
 	.pm1
 	{
-		width:48%;
-		height:50%;
-		float:right;
+		width:47%;
 		padding :35px;
-		margin-right: 10px;
+		float:right;
+		margin:10px;
 
-	}
+
+	} 
 	.pm2
 	{
-		clear:left;
-		width:48%;
-		height:50%;
-		padding: 35px;
-		margin-left: 10px;
- 
+		margin:10px;
+        width:47%;
+		padding :35px;
 
 	}
 	.pm3
 	{
-		width:100%;
-		height:100%;
-		padding: 35px;
-		margin: 10px;
+		width:98%;
+		margin:10px;
+		padding: 30px;
 	}	
+	 #p11
+{
+	position:absolute;
+	left:292px;
+	top:37px;
+
+}
+#p22
+{
+	position: fixed;
+	left:708px;
+	top:37px;
+}
+#p33
+{
+	position:fixed;
+	float:right;
+	left:697px;
+	bottom: -114px
+}
 
 }
 @media(max-width: 767px)
@@ -175,4 +135,24 @@ h2
 		margin:10px;
 		padding:30px;
 	}
+		 #p11
+{
+	position:absolute;
+	left:314px;
+	top:37px;
+
+}
+#p22
+{
+	position: relative;
+	left:343px;
+	bottom:-85px;
+}
+#p33
+{
+	position:relative;
+	bottom:-337px;
+	left:327px;
+	
+}
 }
